@@ -18,10 +18,46 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: white;
+}
+.custom-background {
+  background-image: url("../public/img/home/bg.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Стилізація Swiper та анімація */
+
+/* Стилізація Swiper та анімація */
+
+.swiper-container {
+  position: relative;
+  width: 100%;
+  padding-top: 50px; /* Додай відступ зверху, якщо потрібно */
+  padding-bottom: 50px; /* Додай відступ знизу, якщо потрібно */
+}
+
+.swiper-slide {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #e30f0f;
+   /* Колір стрілок */
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #000; /* Зміна кольору при наведенні на стрілки */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000; /* Колір активної точки пагінації */
+}
+
+/* Анімація слайдів */
+.swiper-slide {
+  transition: transform 0.3s ease-in-out; /* Анімація перемикання слайдів */
 }
