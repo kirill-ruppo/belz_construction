@@ -23,7 +23,7 @@ export interface ServiceCardProps {
 export interface ButtonPageLinkProps {
     route: string,
     children: string,
-    onClick?: void,
+    onClick?: any,
 }
 export interface ServiceTemplateProps{
     title?: string, 

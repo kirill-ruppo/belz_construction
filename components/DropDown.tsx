@@ -39,11 +39,11 @@ import { servicesData } from '@/app/servicesData';
 
 export const DropdownButton = ({ children }: any) => {
   const [isHovered, setIsHovered] = useState(false);
-  const [timeoutId, setTimeoutId] = useState(null);
+  const [timeoutId, setTimeoutId] = useState<number | null>(null);
 
   const handleMouseEnter = () => {
     setIsHovered(true);
-    clearTimeout(timeoutId); // Clear any existing timeout
+    clearTimeout(timeoutId!); // Clear any existing timeout
   };
 
   const handleMouseLeave = () => {

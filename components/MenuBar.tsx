@@ -51,8 +51,8 @@ export default function MenuBar() {
               <img className='w-full' src='../img/home/logo.jpg' alt='logo'></img>
             </div>
             <div className='flex flex-col h-48 '>
-                <ButtonPageLink route='/' onClick={(e) => { closeMenu(); }}>Home</ButtonPageLink>
-                <ButtonPageLink route='/about' onClick={(e) => { closeMenu(); }}>About Us</ButtonPageLink>
+                <ButtonPageLink route='/' onClick={(e: any) => { closeMenu(); }}>Home</ButtonPageLink>
+                <ButtonPageLink route='/about' onClick={(e: any) => { closeMenu(); }}>About Us</ButtonPageLink>
                 <div className='flex flex-col items-center'>
                   <button
                     name='about'
@@ -69,7 +69,7 @@ export default function MenuBar() {
                       ))}
                   </ul>
                 </div>
-                <ButtonPageLink route='/contact' onClick={(e) => { closeMenu(); }}>Contact Us</ButtonPageLink>
+                <ButtonPageLink route='/contact' onClick={(e: any) => { closeMenu(); }}>Contact Us</ButtonPageLink>
                 <div className='w-full p-5 flex fle items-center'>
                   <GoLocation size={25} color='#fff'/>
                     <div className='w-21 ml-2 text-white text-[12px]'>
