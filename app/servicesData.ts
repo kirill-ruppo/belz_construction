@@ -1,6 +1,6 @@
 export const servicesData = [
     {
-        img: '/img/home/test_service.jpg',
+        img: '/img/services/pre-constuction.png',
         title: 'Pre-Construction Services',
         desc: 'At Belz Construction Company, we understand the importance of comprehensive pre-construction services to ensure the success of your project. Our pre-construction services are designed to lay a solid foundation for your construction project, setting the stage for a smooth and efficient construction process',
         slug: 'pre-construction-services',
@@ -24,7 +24,7 @@ export const servicesData = [
         ]
       },
       {
-        img: '/img/home/test_service.jpg',
+        img: '/img/services/construction.png',
         title: 'Construction Services',
         desc: 'Belz Construction Company offers a comprehensive range of construction services to cater to your diverse needs. With our expertise, skilled professionals, and commitment to quality, we ensure successful project execution from start to finish.',
         slug: 'construction-services',
@@ -56,7 +56,7 @@ export const servicesData = [
         ]
       },
       {
-        img: '/img/home/test_service.jpg',
+        img: '/img/services/specialized.png',
         title: 'Specialized Services',
         desc: 'Belz Construction Company offers a range of specialized construction services to cater to your specific needs.',
         slug: 'specialized-services',
@@ -80,7 +80,7 @@ export const servicesData = [
         ]
       },
       {
-        img: '/img/home/test_service.jpg',
+        img: '/img/services/post-construction.png',
         title: 'Post-Construction Services',
         desc: 'At Belz Construction Company, we understand that our commitment to our clients extends beyond the completion of the construction phase. We offer comprehensive post-construction services to ensure your satisfaction and the long-term success of your project. ',
         slug: 'post-construction-services',
@@ -100,7 +100,7 @@ export const servicesData = [
         ]
       },
       {
-        img: '/img/home/test_service.jpg',
+        img: '/img/services/architectural.png',
         title: 'Architectural design process',
         desc: 'The architectural design process encompasses the various stages involved in creating a well-designed and functional structure. While the specific steps may vary depending on the project and architect. ',
         slug: 'design-process',
@@ -132,7 +132,7 @@ export const servicesData = [
         ]
       },
       {
-        img: '/img/home/test_service.jpg',
+        img: '/img/services/documentation.png',
         title: 'Technical Documentation',
         desc: 'Technical documentation is an essential part of the architectural design process as it provides detailed information and instructions for the construction and implementation of the design.',
         slug: 'technical-documentation',
@@ -160,7 +160,7 @@ export const servicesData = [
         ]
       },
       {
-        img: '/img/home/test_service.jpg',
+        img: '/img/services/cad.png',
         title: 'Computer-Aided Design (CAD)',
         desc: 'Computer-Aided Design (CAD) plays a crucial role in the architectural design process. CAD software allows architects and designers to create, modify, and document 2D and 3D designs with greater precision and efficiency.',
         slug: 'cad',

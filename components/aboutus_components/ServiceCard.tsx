@@ -6,7 +6,7 @@ export default function ServiceCard({ img, title, desc, slug }: ServiceCardProps
   return (
     <div className="w-[80%] max-h-[800px]  lg:w-[65%] bg-white shadow-custom-yellow border border-black transition-transform transform hover:scale-95 hover:shadow-none duration-1000 ease-in-out">
       <Link href="/services/[id]" as={`/services/${slug}`}>
-        <img src={img} alt={title} className="w-full h-[40%]" />
+        <img src={img} alt={title} className="w-full" />
         <div className="h-[400px] justify-between p-4 flex flex-col items-center">
           <h3 className="text-black text-xl md:text-2xl lg:text-3xl font-regular font-montserrat">{title}</h3>
           <p className="text-black text-base md:text-sm lg:text-xl font-normal font-montserrat leading-relaxed">{desc}</p>

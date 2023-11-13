@@ -33,17 +33,17 @@ export default function About() {
         <div className='w-full flex flex-col justify-center items-center bg-yellow pt-5 pb-5'>
           <CustomTitle text='WHY CHOOSE US' textMain='Our Services' textMainColor={false}/>
           <div className='w-[90%] flex flex-col flex-wrap justify-between items-center md:flex-row'>
-              <div className='w-[90%] md:w-[30%] h-[400px] flex flex-col justify-center items-center bg-white rounded-[50px] border-2 border-black'>
+              <div className='w-[90%] md:w-[30%] h-[400px] flex flex-col justify-center items-center bg-white rounded-[50px] border-2 border-black mt-2'>
                 <img src='img/about/1.jpg'></img>
                 <h2 className='text-black text-[34px] font-bold'>Construction</h2>
                 <p className='p-4'>Make your construction plans with the help of our drafting services to ensure you get what you imagined.</p>
               </div>
-              <div className='w-[90%] md:w-[30%] h-[400px] flex flex-col justify-center items-center bg-white rounded-[50px] border-2 border-black'>
+              <div className='w-[90%] md:w-[30%] h-[400px] flex flex-col justify-center items-center bg-white rounded-[50px] border-2 border-black mt-2'>
                 <img src='img/about/2.jpg'></img>
                 <h2 className='text-black text-[34px] font-bold'>Architecture</h2>
                 <p className='p-4'>Avail the skills of our architecture professionals to design exceptional commercial and residential building</p>
               </div>
-              <div className='w-[90%] md:w-[30%] h-[400px] flex flex-col justify-center items-center bg-white rounded-[50px] border-2 border-black'>
+              <div className='w-[90%] md:w-[30%] h-[400px] flex flex-col justify-center items-center bg-white rounded-[50px] border-2 border-black mt-2'>
                 <img src='img/about/3.jpg'></img>
                 <h2 className='text-black text-[34px] font-bold'>Interior</h2>
                 <p className='p-4'>Plan your interior remodeling now with our help, as we provide tools to help you envision the space.</p>

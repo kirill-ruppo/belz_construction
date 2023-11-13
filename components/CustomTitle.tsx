@@ -9,7 +9,7 @@ export default function CustomTitle({text, textMain, textMainColor, titleDesc}: 
             <div className="w-[315.68px] h-[0px] border-2 border-black"></div>
         </div>
 
-        <h2 className={`text-center p-3 ${textMainColor ? 'text-yellow' : 'text-black'} text-5xl  md:text-[55px] font-bold`}>{textMain}</h2>
+        <h2 className={`text-center p-3 ${textMainColor ? 'text-yellow' : 'text-black'} text-[35px]  md:text-[55px] font-bold`}>{textMain}</h2>
         <div className="w-[80%] mt-5 mb-5">
           <p className="text-center text-black text-[25px] text-base md:text-lg lg:text-xl font-medium">{titleDesc}</p>
         </div>

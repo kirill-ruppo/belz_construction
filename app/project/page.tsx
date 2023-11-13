@@ -1,9 +1,21 @@
+"use client"
 import React from 'react'
+import { sliderPhotos } from '../servicesData';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from 'next/image';
+
 export default function ProjectPage() {
   const bannerStyle = {
     backgroundImage: "url('/img/project/Banner.png",
     backgroundSize: 'cover',
   }
+  const breakpoints = {
+    1200: {slidesPerView: 3},
+    750: { slidesPerView: 2 },
+    700: { slidesPerView: 1 },
+
+  };
+  
   return (
     <div className='w-full h-full'>
       <div className='w-full h-[700px] flex justify-center items-center flex-col text-white '  style={bannerStyle}>
@@ -75,6 +87,27 @@ export default function ProjectPage() {
                 </div>
               </div>
             </section>
+        </div>
+
+        <div className='w-[90%] flex flex-col justify-center items-center'>
+          <div className='w-full'>
+              <p className='text-black text-[25px] font-medium'>Creating this residential complex presented us with numerous complex engineering challenges that required exceptional knowledge and experience. However, thanks to our team of professionals, these challenges were overcome with ease. Our ability to devise innovative solutions and effectively address technical issues allowed us to successfully realize the project and create a modern residential complex that combines a high level of comfort and safety.</p>
+          </div>
+          <div className="w-full h-[700px] flex flex-col items-center justify-evenly overflow-hidden">
+            <Swiper
+              spaceBetween={50}
+              breakpoints={breakpoints}
+              navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
+              onSlideChange={() => console.log('slide change')}
+              onSwiper={(swiper) => console.log(swiper)}
+            >
+              {sliderPhotos.map(({img}) => (
+                  <SwiperSlide key={1+2}><Image src={img} alt='mainBannerPhoto' width={500} height={100} /></SwiperSlide>
+              ))}
+              <div className="swiper-button-prev"></div>
+              <div className="swiper-button-next"></div>
+            </Swiper>
+          </div>
         </div>
        
      

@@ -18,7 +18,7 @@ export default function Contact() {
                         <h1 className="xl:text-4xl text-3xl pb-4 text-white font-bold">Get in touch</h1>
                         <p className="text-xl text-white pb-8 leading-relaxed font-normal lg:pr-4">Got a question about us? Are you interested in partnering with us? Have some suggestions or just want to say Hi? Just contact us. We are here to asset you.</p>
                         <div className='h-full flex items-center justify-between flex-col'>
-                            <div className='w-[340px] h-[220px] bg-white rounded-[50px] border-2 border-black flex justify-center items-center flex-col'>
+                            <div className='w-[340px] h-[220px] bg-white rounded-[50px] border-2 border-black flex justify-center items-center flex-col mt-2'>
                             {/* <p className='absolute text-center text-zinc-300 text-[100px] font-bold'>01</p> */}
                                 <h3 className='text-center text-black text-[34px] font-bold'>Call Now</h3>
                                 <div className='w-full flex items-center justify-around'>
@@ -31,7 +31,7 @@ export default function Contact() {
                                 </div>
                             </div>
 
-                            <div className='w-[340px] h-[220px] bg-white rounded-[50px] border-2 border-black flex justify-center items-center flex-col'>
+                            <div className='w-[340px] h-[220px] bg-white rounded-[50px] border-2 border-black flex justify-center items-center flex-col mt-2'>
                             {/* <p className='absolute text-center text-zinc-300 text-[100px] font-bold'>01</p> */}
                                 <h3 className='text-center text-black text-[34px] font-bold'>Location</h3>
                                 <div className='w-[90%] flex items-center justify-around'>
@@ -42,7 +42,7 @@ export default function Contact() {
                                 </div>
                             </div>
 
-                            <div className='w-[340px] h-[220px] bg-white rounded-[50px] border-2 border-black flex justify-center items-center flex-col'>
+                            <div className='w-[340px] h-[220px] bg-white rounded-[50px] border-2 border-black flex justify-center items-center flex-col mt-2'>
                             {/* <p className='absolute text-center text-zinc-300 text-[100px] font-bold'>01</p> */}
                                 <h3 className='text-center text-black text-[34px] font-bold'>Email Now</h3>
                                 <div className='w-full flex items-center justify-around'>

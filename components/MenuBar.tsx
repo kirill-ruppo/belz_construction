@@ -47,16 +47,16 @@ export default function MenuBar() {
         <div className={isOpen ? 'fixed left-0 top-0 w-full h-full bg-pale_black ease-in-out duration-700' : 'fixed left-[-100%]'}> 
         <div className={isOpen ? 'fixed left-0 top-0 w-56 h-full bg-black ease-in-out duration-500' : 'fixed left-[-100%]'}>
           <div className='w-11/12 h-full flex flex-col items-center'>
-            <div className='w-[150px] mt-5'>
+            <div className='w-[150px] '>
               <img className='w-full' src='../img/home/logo.jpg' alt='logo'></img>
             </div>
-            <div className='flex flex-col h-48 '>
+            <div className='flex flex-col h-48 gap-3 mt-5'>
                 <ButtonPageLink route='/' onClick={(e: any) => { closeMenu(); }}>Home</ButtonPageLink>
                 <ButtonPageLink route='/about' onClick={(e: any) => { closeMenu(); }}>About Us</ButtonPageLink>
                 <div className='flex flex-col items-center'>
                   <button
                     name='about'
-                    className='text-white hover:text-yellow duration-300 ease-linear active:text-focus mt-5'
+                    className='text-white hover:text-yellow duration-300 ease-linear active:text-focus'
                     onClick={handleButton}
                   >
                     Services
@@ -92,7 +92,7 @@ export default function MenuBar() {
             <div className='w-1/2 hidden md:flex justify-evenly'>
               <ButtonPageLink route='/'>Home</ButtonPageLink>
               <ButtonPageLink route='/about'>About Us</ButtonPageLink>
-              <DropdownButton >Services</DropdownButton>
+              <DropdownButton>Services</DropdownButton>
               <ButtonPageLink route='/contact'>Contact Us</ButtonPageLink>
             </div>
 

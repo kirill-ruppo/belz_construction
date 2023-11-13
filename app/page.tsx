@@ -126,7 +126,7 @@ export default function Home() {
         onSwiper={(swiper) => console.log(swiper)}
       >
          {sliderPhotos.map(({img}) => (
-            <SwiperSlide key={1+2}><Image src={img} alt='mainBannerPhoto' width={500} height={100} /></SwiperSlide>
+            <SwiperSlide key={1+2}><Image src={img} alt='mainBannerPhoto' width={400} height={500} /></SwiperSlide>
         ))}
         <div className="swiper-button-prev"></div>
         <div className="swiper-button-next"></div>
