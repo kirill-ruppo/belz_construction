@@ -35,7 +35,7 @@ export default function Footer() {
   return (
         <div className='w-full h-full  '>
             <div className='w-full h-full '>
-            <div className="flex flex-col items-center justify-center custom-background w-full h-[700px]">
+            <div className="flex flex-col items-center justify-center custom-background w-full h-[800px]">
                 <CustomTitle text='Frequently Asked Questions' textMain='Get Every Answer From Here' textMainColor={false}/>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-screen-lg'>
                 {questions.map((item, index) => (
@@ -77,7 +77,7 @@ export default function Footer() {
                             <Link className="text-gray-600 hover:text-gray-800" href='/contact'>+ Contact Us</Link>
                         </li>
                         <li>
-                            <Link className="text-gray-600 hover:text-gray-800" href='/project'>+ Project Us</Link>
+                            <Link className="text-gray-600 hover:text-gray-800" href='/project'>+ Project</Link>
                         </li>
                     </nav>
                 </div>

@@ -11,8 +11,8 @@ export default function ProjectPage() {
   }
   const breakpoints = {
     1200: {slidesPerView: 3},
-    750: { slidesPerView: 2 },
-    700: { slidesPerView: 1 },
+    600: { slidesPerView: 2 },
+    400: { slidesPerView: 1 },
 
   };
   
@@ -56,11 +56,6 @@ export default function ProjectPage() {
                     <div className="flex-grow">
                       <h2 className="text-black text-lg title-font font-medium mb-3">Attention to details</h2>
                       <p className="leading-relaxed text-base">Special attention was given not only to the interior infrastructure but also to the structure and the surrounding area, ensuring comfort and convenience for all residents. </p>
-                      <a className="mt-3 text-indigo-400 inline-flex items-center">Learn More
-                        <svg fill="none" stroke="currentColor"  className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                          <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                      </a>
                     </div>
                   </div>
                   <div className="flex flex-col mb-10 lg:items-start items-center">
@@ -83,7 +78,7 @@ export default function ProjectPage() {
 
         <div className='w-[90%] flex flex-col justify-center items-center'>
           <div className='w-full'>
-              <p className='text-black text-[25px] font-medium'>Creating this residential complex presented us with numerous complex engineering challenges that required exceptional knowledge and experience. However, thanks to our team of professionals, these challenges were overcome with ease. Our ability to devise innovative solutions and effectively address technical issues allowed us to successfully realize the project and create a modern residential complex that combines a high level of comfort and safety.</p>
+              <p className='text-black text-[15px] md:text-[25px] font-medium'>Creating this residential complex presented us with numerous complex engineering challenges that required exceptional knowledge and experience. However, thanks to our team of professionals, these challenges were overcome with ease. Our ability to devise innovative solutions and effectively address technical issues allowed us to successfully realize the project and create a modern residential complex that combines a high level of comfort and safety.</p>
           </div>
           <div className="w-full h-[700px] flex flex-col items-center justify-evenly overflow-hidden">
             <Swiper

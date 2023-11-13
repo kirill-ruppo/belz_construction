@@ -62,10 +62,10 @@ export default function Home() {
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
               <Image src='/img/home/about.jpg' alt='mainBannerPhoto' width={800} height={500} />
           </div>
-          <div className="justify-between lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-center md:text-left items-center text-center">
+          <div className="justify-between lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-center text-left items-center ">
             <h2 className="sm:text-[55px] text-4xl text-yellow ">About Us</h2>
             <div className="w-[355px] border-2 border-black mt-7 mb-14"></div>
-            <p className="mb-8 leading-relaxed text-black text-[22px]">BELZ Construction Company is a leading player in the construction industry, renowned for its commitment to excellence, innovation, and delivering exceptional construction projects. With a rich history spanning several decades, BELZ Construction Company has earned a stellar reputation for its unmatched craftsmanship, reliability, and dedication to client satisfaction. From residential buildings to commercial complexes and infrastructure projects, BELZ Construction Company has left an indelible mark on the landscape, shaping communities and transforming visions into reality.</p>
+            <p className="mb-8 leading-relaxed text-black text-[15px] md:text-[22px]">BELZ Construction Company is a leading player in the construction industry, renowned for its commitment to excellence, innovation, and delivering exceptional construction projects. With a rich history spanning several decades, BELZ Construction Company has earned a stellar reputation for its unmatched craftsmanship, reliability, and dedication to client satisfaction. From residential buildings to commercial complexes and infrastructure projects, BELZ Construction Company has left an indelible mark on the landscape, shaping communities and transforming visions into reality.</p>
             <CustomButton
               text="Learn more about us"
               route='/about'
@@ -139,7 +139,7 @@ export default function Home() {
       <div className="bg-yellow  md:flex md:items-center">
           <div className="md:w-1/2 p-4">
             <CustomTitle text='OUR STRATEGY' textMain='Unique Concepts for Exceptional Interiors' textMainColor={false}/>
-            <p className='text-black text-[25px] font-normal p-7'>Are you seeking truly unique interiors that reflect your vision? Our design services are tailored to bring your ideas to life. With our expertise, we provide a visual representation of your future interiors, allowing you to envision and customize every detail. By working closely with you, we ensure that the design aligns with your specific needs and desires. Let us help you create extraordinary spaces that exceed your expectations.</p>
+            <p className='text-black text-[15px] md:text-[20px] font-normal p-7'>Are you seeking truly unique interiors that reflect your vision? Our design services are tailored to bring your ideas to life. With our expertise, we provide a visual representation of your future interiors, allowing you to envision and customize every detail. By working closely with you, we ensure that the design aligns with your specific needs and desires. Let us help you create extraordinary spaces that exceed your expectations.</p>
           </div>
           <div className="md:w-1/2">
             <img src="img/home/about.jpg" alt="Зображення" className="w-full h-auto" />
