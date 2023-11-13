@@ -32,7 +32,7 @@ export default function ProjectPage() {
                 <div className="lg:w-1/2 w-full mb-10 lg:mb-0  overflow-hidden">
                   <img alt="feature" className="object-cover object-center h-full w-full" src="img/home/test.jpg"/>
                 </div>
-                <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center lg:rounded-tr-[50px] lg:rounded-br-[50px] bg-white">
+                <div className="flex flex-col flex-wrap lg:py-6  lg:w-1/2 lg:pl-12 lg:text-left text-center lg:rounded-tr-[50px] lg:rounded-br-[50px] bg-white">
                   <div className="flex flex-col mb-10 lg:items-start items-center">
                     <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5">
                       <svg fill="none" stroke="currentColor" className="w-6 h-6" viewBox="0 0 24 24">
