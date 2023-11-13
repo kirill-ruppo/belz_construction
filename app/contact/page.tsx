@@ -18,10 +18,10 @@ export default function Contact() {
                         <h1 className="xl:text-4xl text-3xl pb-4 text-white font-bold">Get in touch</h1>
                         <p className="text-xl text-white pb-8 leading-relaxed font-normal lg:pr-4">Got a question about us? Are you interested in partnering with us? Have some suggestions or just want to say Hi? Just contact us. We are here to asset you.</p>
                         <div className='h-full flex items-center justify-between flex-col'>
-                            <div className='w-[340px] h-[220px] bg-white rounded-[50px] border-2 border-black flex justify-center items-center flex-col mt-2'>
+                            <div className='w-[90%] h-[220px] bg-white rounded-[50px] border-2 border-black flex justify-center items-center flex-col mt-2'>
                             {/* <p className='absolute text-center text-zinc-300 text-[100px] font-bold'>01</p> */}
                                 <h3 className='text-center text-black text-[34px] font-bold'>Call Now</h3>
-                                <div className='w-full flex items-center justify-around'>
+                                <div className='w-full flex items-center justify-center'>
                                     <img src='img/contact/phone.jpg' alt='phone'></img>
                                     <div className='flex flex-col items-center'>
                                         <a className='text-center text-black text-xl font-normal' href='tel: (877) 870-1883'>(877) 870-1883</a>
@@ -31,10 +31,10 @@ export default function Contact() {
                                 </div>
                             </div>
 
-                            <div className='w-[340px] h-[220px] bg-white rounded-[50px] border-2 border-black flex justify-center items-center flex-col mt-2'>
+                            <div className='w-[90%] h-[220px] bg-white rounded-[50px] border-2 border-black flex justify-center items-center flex-col mt-2'>
                             {/* <p className='absolute text-center text-zinc-300 text-[100px] font-bold'>01</p> */}
                                 <h3 className='text-center text-black text-[34px] font-bold'>Location</h3>
-                                <div className='w-[90%] flex items-center justify-around'>
+                                <div className='w-[90%] flex items-center justify-center'>
                                     <img src='img/contact/location.jpg' alt='phone'></img>
                                     <div className='flex flex-col items-center'>
                                         <p className='text-center text-black text-xl font-normal'>7901 4th St N St. Petersburg, FL 33702</p>
@@ -42,13 +42,13 @@ export default function Contact() {
                                 </div>
                             </div>
 
-                            <div className='w-[340px] h-[220px] bg-white rounded-[50px] border-2 border-black flex justify-center items-center flex-col mt-2'>
+                            <div className='w-[90%] h-[220px] bg-white rounded-[50px] border-2 border-black flex justify-center items-center flex-col mt-2'>
                             {/* <p className='absolute text-center text-zinc-300 text-[100px] font-bold'>01</p> */}
                                 <h3 className='text-center text-black text-[34px] font-bold'>Email Now</h3>
-                                <div className='w-full flex items-center justify-around'>
+                                <div className='w-full flex md:flex-row flex-col items-center justify-center'>
                                     <img src='img/contact/email.jpg' alt='phone'></img>
                                     <div className='flex flex-col items-center'>
-                                        <a className='text-center text-black text-xl font-normal' href='mailto:email.info@gmail.com'>email.info@gmail.com</a>
+                                        <a className=' text-center text-black  text-sm lg:text-base font-normal' href='mailto:belzconstructionclients@gmail.com'>belzconstruction@gmail.com</a>
                                     </div>
                                 </div>
                             </div>

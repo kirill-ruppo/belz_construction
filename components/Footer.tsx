@@ -39,7 +39,7 @@ export default function Footer() {
                 <CustomTitle text='Frequently Asked Questions' textMain='Get Every Answer From Here' textMainColor={false}/>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-screen-lg'>
                 {questions.map((item, index) => (
-                    <div key={index} className='w-full'>
+                    <div key={index} className='w-full p-2'>
                     <button
                         className='w-full text-left border-2 border-pale_yellow p-2 hover:bg-pale_yellow hover:text-black text-lg'
                         onClick={() => handleActiveButton(index)}

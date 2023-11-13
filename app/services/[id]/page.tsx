@@ -22,7 +22,7 @@ export default function ServicePage ({params}: {
   return (
     <div>
         <div className='w-full h-[700px] flex justify-center items-center flex-col text-white'  style={bannerStyle}>
-            <h1 className='text-white text-[55px] font-bold'>{service.title}</h1>
+            <h1 className='text-white text-center p-2 text-[30px] md:text-[55px] font-bold'>{service.title}</h1>
         </div>
         <div className='w-full h-full flex flex-col items-center'>
             <div className='w-[80%]'>

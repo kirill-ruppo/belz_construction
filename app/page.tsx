@@ -117,22 +117,22 @@ export default function Home() {
           </div>
       </div>
 
-      <div className="custom-background w-full h-[700px] flex flex-col items-center justify-evenly overflow-hidden">
-      <Swiper
-        spaceBetween={50}
-        breakpoints={breakpoints}
-        navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
-      >
-         {sliderPhotos.map(({img}) => (
-            <SwiperSlide key={1+2}><Image src={img} alt='mainBannerPhoto' width={400} height={500} /></SwiperSlide>
-        ))}
-        <div className="swiper-button-prev"></div>
-        <div className="swiper-button-next"></div>
-      </Swiper>
-     
-      <CustomButton route='/project' text='More about project' styles='rounded-[50px] w-[276px] h-[54px] text-white bg-black text-xl font-normal flex justify-center items-center hover:bg-yellow hover:text-black hover:border hover:border-2'/>
+      <div className="w-full h-[700px] flex flex-col items-center justify-evenly overflow-hidden">
+            <Swiper
+              spaceBetween={50}
+              breakpoints={breakpoints}
+              navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
+              onSlideChange={() => console.log('slide change')}
+              onSwiper={(swiper) => console.log(swiper)}
+            >
+              {sliderPhotos.map(({img}) => (
+                  <SwiperSlide key={1+2}><Image src={img} alt='mainBannerPhoto' width={500} height={100} /></SwiperSlide>
+              ))}
+              <div className="swiper-button-prev"></div>
+              <div className="swiper-button-next"></div>
+            </Swiper>
+         
+      <CustomButton route='/project' text='More about project' styles='rounded-[50px] w-[276px] h-[54px] my-3 text-white bg-black text-xl font-normal flex justify-center items-center hover:bg-yellow hover:text-black hover:border hover:border-2'/>
     </div>
 
 

@@ -19,7 +19,7 @@ export default function ProjectPage() {
   return (
     <div className='w-full h-full'>
       <div className='w-full h-[700px] flex justify-center items-center flex-col text-white '  style={bannerStyle}>
-            <h1 className='text-white text-[55px] font-bold'>Project Name</h1>
+            <h1 className='text-white text-center p-2 text-[30px] md:text-[55px] font-bold'>Project Name</h1>
       </div>
 
       <div className='w-full h-full flex flex-col justify-center items-center bg-yellow'>
@@ -27,8 +27,8 @@ export default function ProjectPage() {
           <h2 className='text-center text-black text-[35px] font-semibold'>On our website, we take pride in presenting our latest project - a vast residential complex.</h2>
 
 
-          <section className="text-gray-400 bg-gray-900 body-font">
-              <div className="container px-5 py-24 mx-auto flex flex-wrap">
+          <section className="w-[95%] text-gray-400 bg-gray-900 body-font">
+              <div className="container  py-24 mx-auto flex flex-wrap">
                 <div className="lg:w-1/2 w-full mb-10 lg:mb-0  overflow-hidden">
                   <img alt="feature" className="object-cover object-center h-full w-full" src="img/home/test.jpg"/>
                 </div>
@@ -40,13 +40,9 @@ export default function ProjectPage() {
                       </svg>
                     </div>
                     <div className="flex-grow">
-                      <h2 className="text-white text-lg title-font font-medium mb-3">Shooting Stars</h2>
-                      <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                      <a className="mt-3 text-indigo-400 inline-flex items-center">Learn More
-                        <svg fill="none" stroke="currentColor"  className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                          <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                      </a>
+                      <h2 className="text-black text-lg title-font font-medium mb-3">Teamwork</h2>
+                      <p className="leading-relaxed text-base">Our team executed a variety of tasks, from laying the foundation to completing the finishing touches, to create this unique complex. </p>
+                     
                     </div>
                   </div>
                   <div className="flex flex-col mb-10 lg:items-start items-center">
@@ -58,8 +54,8 @@ export default function ProjectPage() {
                       </svg>
                     </div>
                     <div className="flex-grow">
-                      <h2 className="text-white text-lg title-font font-medium mb-3">The Catalyzer</h2>
-                      <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                      <h2 className="text-black text-lg title-font font-medium mb-3">Attention to details</h2>
+                      <p className="leading-relaxed text-base">Special attention was given not only to the interior infrastructure but also to the structure and the surrounding area, ensuring comfort and convenience for all residents. </p>
                       <a className="mt-3 text-indigo-400 inline-flex items-center">Learn More
                         <svg fill="none" stroke="currentColor"  className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                           <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -75,13 +71,9 @@ export default function ProjectPage() {
                       </svg>
                     </div>
                     <div className="flex-grow">
-                      <h2 className="text-white text-lg title-font font-medium mb-3">Neptune</h2>
-                      <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                      <a className="mt-3 text-indigo-400 inline-flex items-center">Learn More
-                        <svg fill="none" stroke="currentColor"  className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                          <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                      </a>
+                      <h2 className="text-black text-lg title-font font-medium mb-3">High quality</h2>
+                      <p className="leading-relaxed text-base">We are proud that all work was carried out by qualified and licensed professionals to ensure the highest quality standards. Our team worked diligently to meet tight deadlines, ensuring a swift completion of the complex. With us, you can be confident that your project will be executed professionally and on schedule. </p>
+                     
                     </div>
                   </div>
                 </div>
